@@ -1,0 +1,11 @@
+$primary: darkred;
+
+$theme-colors: (
+    //   "primary": darkred,
+        "primary": $primary,
+    "danger": blue,
+    "success": darkgreen,
+    "info": rgb(6, 90, 117)
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
